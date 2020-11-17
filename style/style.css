@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body .navbar {
+  margin-left: 40px;
+}
+
+body .navbar .navbar-nav {
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+body .navbar .navbar-nav .home {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .navbar .navbar-nav .home .red {
+  color: red;
+}
+
+body .navbar .navbar-brand {
+  font-family: fantasy;
+}
+
+header .building img {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+}
+
+header .articles {
+  position: absolute;
+  width: 50%;
+  height: 700px;
+}
+
+header .articles .div-h1 {
+  color: red;
+  height: 175px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 60px;
+}
+
+header .articles .div-h1 h1 {
+  font-size: 60px;
+}
+
+header .articles .div-h2 {
+  color: white;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+header .articles .div-h2 h2 {
+  font-size: 22px;
+}
+
+header form {
+  position: absolute;
+  color: white;
+  width: 50%;
+  height: 400px;
+  margin-left: 650px;
+  margin-top: 115px;
+}
+
+header form .form-group .write-us {
+  height: 160px;
+}
+
+main {
+  margin-top: 50em;
+}
+
+main .main-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 80px;
+}
+
+main .main-div .card-deck {
+  width: 60%;
+}
+
+main .main-div .card-deck .card {
+  border: none;
+}
+
+main .main-div .card-deck .card .card-img-top {
+  width: 40%;
+  margin-left: 73px;
+}
+
+main .main-div .card-deck .card .card-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .main-div .card-deck .card .number {
+  color: red;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

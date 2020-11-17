@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    .navbar {
+        margin-left: 40px;
+        .navbar-nav {
+            font-family: fantasy;
+            font-weight: bolder;
+            font-size: 20px;
+            .home {
+                width: 400px;
+                display: flex;
+                justify-content: space-evenly;
+
+                .red {
+                    color: red;
+                }
+            }
+        }
+        .navbar-brand {
+            font-family: fantasy;
+        }
+    }
+}
+
+header {
+    .building {
+            img {
+            width: 100%;
+            height: 700px;
+            position: absolute;
+            }
+        }
+
+        .articles {
+            position: absolute;
+            width: 50%;
+            height: 700px;
+
+            .div-h1 {
+                color: red;
+                height: 175px;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                margin-bottom: 60px;
+                h1 {
+                    font-size: 60px;
+                }
+            }
+            
+            .div-h2 {
+                color: white;
+                height: 350px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                h2 {
+                    font-size: 22px;
+                }
+            }
+        }
+    form {
+        position: absolute;
+        color: white;
+        width: 50%;
+        height: 400px;
+        margin-left: 650px;
+        margin-top: 115px;
+
+        .form-group {
+            .write-us {
+                height: 160px;
+            }
+        }
+    }
+}
+
+main {
+    margin-top: 50em;
+
+    .main-div { 
+        display: flex;
+        justify-content: center;
+        margin-bottom: 80px;
+        .card-deck {
+            width: 60%;
+            .card {
+                border: none;
+                .card-img-top{
+                    width: 40%;
+                    margin-left: 73px;
+                }
+                .card-title {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .number {
+                    color: red;
+                    text-align: center;
+                }
+            }
+        }
+        }
+}
